@@ -1,0 +1,15 @@
+button {
+  background-color: #3c99b7;
+  color: #fff;
+  padding: 10px 24px;
+  border: none;
+  font-size: 10px;
+  font-weight: bold;
+
+  &:hover {
+    background-color: lighten(#3c99b7, 15%);
+  }
+  &:active {
+    background-color: darken(#3c99b7, 15%);
+  }
+}
